@@ -111,11 +111,18 @@ body {
  /* RESPONSIVE NAV */
 @media(max-width: 600px){
     .welcome{
-        height: 220px;
+        height: 225px;
+        padding-top: 94px;
+        text-align: center;
     }
     .welcome p{
         line-height: 1.6rem;
     }
+    .nav ul a:is(:hover, :active) {
+    color: limegreen;
+    cursor: pointer;
+    border: none;
+}
     .nav ul{
         position: absolute;
         top: 80px;
@@ -124,7 +131,6 @@ body {
         width: 100%;
         height: 100vh;
         background-color: var(--navcolor);
-
         display: flex;
         flex-direction: column;
         gap: 10px;
