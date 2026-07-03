@@ -201,14 +201,7 @@ header{
     font-family: var(--font);
     transition: .4s ease-in-out .1s;
 }
-@media (max-width: 768px){
-    .section1 button{
-        margin-top: 5px;
-    }
- /* .section1 h1,p{
-     text-align: left;
- } */
-}
+
 .section1 button a{
     text-decoration: none;
     color: white;
@@ -293,6 +286,7 @@ header{
     color: white;
     font-weight: bold;
 }
+
 @media (max-width: 768px) {
     .destination-nav{
         display: flex;
@@ -306,6 +300,7 @@ header{
     
         }
     }
+    
     .places-nav button{
         display: flex;
         justify-content: center;
@@ -316,8 +311,8 @@ header{
 }
     .destination-list{
         position: absolute;
-        top: 84%;
-        right: 12%;
+        top: 90%;
+        right: 8%;
         display: none;
         flex-direction: column;
         z-index: 100;
@@ -645,6 +640,19 @@ header{
     border-radius: 50%;
     font-size: 16px;
     margin-right: 12px;
+}
+@media (max-width: 768px) {
+     .review-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 16px;
+     margin-inline: 15px;
+     place-items: center;
+     margin-top: 30px;
+     margin-bottom: 25px;
+     padding: 10px;
+ }
 }
     
 /* ANIMATION  IS UNDER BUT COMMENTED 👇*/
